@@ -1,0 +1,79 @@
+body {
+  font-family: "Manrope", sans-serif;
+}
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.cardz {
+  background-color: #0d1321;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 5px solid #8a95a5;
+  width: 400px;
+  height: 500px;
+  margin-top: 8%;
+  border-radius: 30px;
+}
+
+.cardz .top {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.cardz .top img {
+  width: 15%;
+}
+
+.cardz .top h2 {
+  color: #fceff9;
+}
+
+.cardz .top h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #fceff9;
+}
+
+.btn {
+  display: flex;
+  gap: 10%;
+  font-family: "Montserrat", sans-serif;
+  top: 10%;
+  position: relative;
+}
+
+.btn button {
+  width: 100px;
+  height: 45px;
+  border-radius: 15px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn .button1 {
+  background-color: #2ba84a;
+  color: #fceff9;
+}
+
+.btn .button2 {
+  background-color: #ec0b43;
+  color: #fceff9;
+}
