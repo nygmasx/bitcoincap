@@ -10,4 +10,4 @@ function ajaxreq() {
     },
   });
 }
-setInterval(ajaxreq, 5000);
+setInterval(ajaxreq, 3000);
