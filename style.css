@@ -77,3 +77,11 @@ body {
   background-color: #ec0b43;
   color: #fceff9;
 }
+
+@media only screen and (min-width: 600px)  {
+  .cardz {
+    width : 70%;
+    heigth : 60%;
+    margin-top: 25%;
+  }
+}
